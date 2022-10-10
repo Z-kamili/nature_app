@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -17,6 +18,7 @@
         <script src="{{ asset('js/app.js') }}" defer></script>
 
     </head>
+
     <body class="font-sans gray-background text-gray-900 text-sm">
        
         <header class="flex items-center justify-between  py-4 px-8">
@@ -51,10 +53,10 @@
 
         <main class="container mx-auto max-w-custom flex" style="max-width:1000px">
             <div class="w-70 mr-5">
-               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur autem iusto, natus quo laboriosam, recusandae debitis fuga eveniet velit aliquid ducimus possimus ipsa inventore voluptatum facilis atque aliquam nulla ipsum harum soluta obcaecati eaque. Provident magni architecto cupiditate ducimus quaerat eaque nesciunt adipisci rem eius, magnam sit nam exercitationem ratione molestiae! Aut repudiandae tenetur maxime provident nostrum et obcaecati ipsum consectetur rerum quod ex error corporis debitis, ducimus suscipit temporibus fuga inventore voluptatibus a pariatur soluta tempore asperiores consequuntur nulla? Beatae alias tempora magnam corporis rem ratione soluta aut amet id, tempore dolor vel ducimus tenetur nemo iusto, officiis ullam!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, earum? Quas, quos perferendis aliquam ducimus minima nesciunt officia libero error explicabo tempore, rem neque exercitationem. Quibusdam aliquam maiores ullam fugit? Alias deserunt praesentium autem deleniti neque eveniet unde id quo sed. Accusamus, provident. Aspernatur non, ab fuga asperiores veniam nostrum enim ad nihil architecto? Blanditiis eius dicta ullam deleniti beatae, tempore enim quo aut incidunt?
             </div>
             <div class="w-175">
-                
+
                <nav class="flex items-center justify-between text-xs">
                     <ul class="flex uppercase font-semibold border-b-4 pb-3 space-x-10">
                         <li><a href="#" class="border-b-4 pb-3 border-blue"> All Idea (87) </a></li>
@@ -72,6 +74,8 @@
                       {{ $slot }}
 
                </div>
+
+               
 
             </div>
         </main>
