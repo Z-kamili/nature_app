@@ -54,6 +54,7 @@
                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur autem iusto, natus quo laboriosam, recusandae debitis fuga eveniet velit aliquid ducimus possimus ipsa inventore voluptatum facilis atque aliquam nulla ipsum harum soluta obcaecati eaque. Provident magni architecto cupiditate ducimus quaerat eaque nesciunt adipisci rem eius, magnam sit nam exercitationem ratione molestiae! Aut repudiandae tenetur maxime provident nostrum et obcaecati ipsum consectetur rerum quod ex error corporis debitis, ducimus suscipit temporibus fuga inventore voluptatibus a pariatur soluta tempore asperiores consequuntur nulla? Beatae alias tempora magnam corporis rem ratione soluta aut amet id, tempore dolor vel ducimus tenetur nemo iusto, officiis ullam!
             </div>
             <div class="w-175">
+                
                <nav class="flex items-center justify-between text-xs">
                     <ul class="flex uppercase font-semibold border-b-4 pb-3 space-x-10">
                         <li><a href="#" class="border-b-4 pb-3 border-blue"> All Idea (87) </a></li>
