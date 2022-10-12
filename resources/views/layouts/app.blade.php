@@ -53,20 +53,47 @@
 
         <main class="container mx-auto max-w-custom flex" style="max-width:1000px">
             <div class="w-70 mr-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, earum? Quas, quos perferendis aliquam ducimus minima nesciunt officia libero error explicabo tempore, rem neque exercitationem. Quibusdam aliquam maiores ullam fugit? Alias deserunt praesentium autem deleniti neque eveniet unde id quo sed. Accusamus, provident. Aspernatur non, ab fuga asperiores veniam nostrum enim ad nihil architecto? Blanditiis eius dicta ullam deleniti beatae, tempore enim quo aut incidunt?
+                <div class="bg-white border-2  border-blue rounded-xl mt-16">
+                   <div class="text-center px-6 py-2 pt-6">
+                        <h3 class="font-semibold text-base">Add an idea</h3>
+                        <p class="text-xs mt-4">Let us know what you would like and we'll take a look over!</p>
+                   </div>
+
+                   <form action="#" method="POST" class="space-y-4 px-4 py-6">
+
+                       <div>
+                           <input type="text" class="w-full text-sm bg-gray-100 border-none rounded-xl placeholder-gray-900 px-4 py-2" placeholder="Your Idea">
+                       </div>
+                       <div>
+                          <select name="category_add" id="category_add" class="w-full bg-gray-100 rounded-xl border-none px-4 py-2">
+
+                                   <option value="Category One">Category One</option>
+                                   <option value="Category Two">Category Two</option>
+                                   <option value="Category Three">Category Three</option>
+                                   <option value="Category Four">Category Four</option>
+            
+                          </select>
+                       </div>
+
+                   </form>
+
+                </div>
             </div>
             <div class="w-175">
 
                <nav class="flex items-center justify-between text-xs">
-                    <ul class="flex uppercase font-semibold border-b-4 pb-3 space-x-10">
-                        <li><a href="#" class="border-b-4 pb-3 border-blue"> All Idea (87) </a></li>
-                        <li><a href="#" class="text-gray-200 transition duration-150 border-b-4 pb-3 hover:border-blue">Considering (6) </a></li>
-                        <li><a href="#" class="text-gray-200 transition duration-150 border-b-4 pb-3 hover:border-blue">IN PROGRESS (1) </a></li>
-                    </ul>
-                    <ul class="flex uppercase font-semibold border-b-4 pb-3 space-x-10">
-                        <li><a href="#" class="text-gray-200 transition duration-150 border-b-4 pb-3 hover:border-blue">Implemented (10) </a></li>
-                        <li><a href="#" class="text-gray-200 transition duration-150 border-b-4 pb-3 hover:border-blue">Closed (55) </a></li>
-                    </ul>
+
+                <ul class="flex uppercase font-semibold border-b-4 pb-3 space-x-10">
+                    <li><a href="#" class="border-b-4 pb-3 border-blue">All Ideas (87)</a></li>
+                    <li><a href="#" class="text-gray-400 transition duration-150 ease-in border-b-4 pb-3 hover:border-blue">Considering (6)</a></li>
+                    <li><a href="#" class="text-gray-400 transition duration-150 ease-in border-b-4 pb-3 hover:border-blue">In Progress (1)</a></li>
+                </ul>
+
+                <ul class="flex uppercase font-semibold border-b-4 pb-3 space-x-10">
+                    <li><a href="#" class="text-gray-400 transition duration-150 ease-in border-b-4 pb-3 hover:border-blue">Implemented (10)</a></li>
+                    <li><a href="#" class="text-gray-400 transition duration-150 ease-in border-b-4 pb-3 hover:border-blue">Closed (55)</a></li>
+                </ul>
+                
                </nav>
 
                <div class="mt-8">
